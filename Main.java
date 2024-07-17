@@ -12,9 +12,16 @@ public class Main {
 
         //**************Q2**********************************************
      MovablePoint m=new MovablePoint(8,10,6,4);
+       System.out.println("After moveUp: ");
        m.moveUp();
+
+        System.out.println("After moveDown: ");
        m.moveDown();
+
+        System.out.println("After moveLeft: ");
        m.moveLeft();
+
+        System.out.println("After moveRight: ");
        m.moveRight();
     }
 }
